@@ -36,7 +36,7 @@ public class PropertyFileUserStorageProviderFactory implements UserStorageProvid
 
     private static final Logger logger = Logger.getLogger(PropertyFileUserStorageProviderFactory.class);
 
-    public static final String PROVIDER_NAME = "readonly-property-file";
+    public static final String PROVIDER_NAME = "spi-sample";
 
     protected Properties properties = new Properties();
 
