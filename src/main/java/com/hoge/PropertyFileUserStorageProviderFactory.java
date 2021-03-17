@@ -55,6 +55,7 @@ public class PropertyFileUserStorageProviderFactory implements UserStorageProvid
         } else {
             try {
                 properties.load(is);
+                logger.warn(properties.getProperty("tbrady") + "?????");
             } catch (IOException ex) {
                 logger.error("Failed to load users.properties file", ex);
             }

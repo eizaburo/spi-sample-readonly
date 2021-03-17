@@ -58,6 +58,7 @@ public class PropertyFileUserStorageProvider implements
         this.session = session;
         this.model = model;
         this.properties = properties;
+
     }
 
     // UserLookupProvider methods
